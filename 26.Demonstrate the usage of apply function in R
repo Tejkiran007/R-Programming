@@ -1,0 +1,24 @@
+
+INPUT:
+
+
+sample_matrix <- matrix(C<-(1:10),nrow=3, ncol=10)
+print( "sample matrix:")
+sample_matrix
+print("sum across rows:")
+apply( sample_matrix, 1, sum)
+print("mean across columns:")
+apply( sample_matrix, 2, mean)
+
+OUTPUT:
+
+[1] "sample matrix:"
+[,1] [,2] [,3] [,4] [,5] [,6] [,7] [,8] [,9] [,10]
+[1,]    1    4    7   10    3    6    9    2    5     8
+[2,]    2    5    8    1    4    7   10    3    6     9
+[3,]    3    6    9    2    5    8    1    4    7    10
+[1] "sum across rows:"
+[1] 55 55 55
+[1] "mean across columns:"
+[1] 2.000000 5.000000 8.000000 4.333333 4.000000 7.000000 6.666667 3.000000
+ [9] 6.000000 9.000000
