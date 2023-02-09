@@ -1,0 +1,15 @@
+INPUT:
+
+name<-readline(prompt="jack")
+age<-readline(prompt="18")
+paste("hai",name,"jack","you will be",18,"years old")
+class(name)
+class(age)
+
+OUTPUT:
+
+jack
+18
+[1] "hai  jack you will be 18 years old"
+[1] "character"
+[1] "character"
