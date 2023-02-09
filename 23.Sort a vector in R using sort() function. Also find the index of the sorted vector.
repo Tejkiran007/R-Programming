@@ -1,0 +1,14 @@
+INPUT:
+
+x = c(10, 20, 30, 25, 9, 26)
+print("Sort in ascending order:")
+print(sort(x))
+print("Sort in descending order:")
+print(sort(x, decreasing=TRUE))
+
+OUTPUT:
+
+[1] "Sort in ascending order:"
+[1]  9 10 20 25 26 30
+[1] "Sort in descending order:"
+[1] 30 26 25 20 10  9 
