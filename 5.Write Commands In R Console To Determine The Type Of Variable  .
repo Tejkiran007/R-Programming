@@ -1,0 +1,9 @@
+
+INPUT:
+
+x <- 5
+class(x)
+
+OUTPUT:
+
+[1] "numeric"
