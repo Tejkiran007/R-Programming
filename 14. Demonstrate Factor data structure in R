@@ -1,0 +1,15 @@
+INPUT:
+
+categories <- c("low", "medium", "high")
+factor_variable <- factor(categories)
+factor_variable
+new_categories <- c("medium", "low", "high")
+new_factor_variable <- factor(new_categories, levels = categories)
+new_factor_variable
+
+OUTPUT:
+
+[1] low    medium high  
+Levels: high low medium
+[1] medium low    high  
+Levels: low medium high
