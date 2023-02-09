@@ -1,0 +1,13 @@
+INPUT:
+
+movies <- c("SPYDERMAN","BATMAN","VERTIGO","CHINATOWN")
+movies_lower <-lapply(movies, tolower)
+str(movies_lower)
+
+OUTPUT:
+
+## List of 4
+## $:chr"spyderman"
+## $:chr"batman"
+## $:chr"vertigo"
+## $:chr"chinatown
