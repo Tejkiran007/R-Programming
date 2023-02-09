@@ -1,0 +1,9 @@
+a=2
+b=4
+area<-a*b
+area
+
+OUTPUT:
+
+> area
+[1] 8
