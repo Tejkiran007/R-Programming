@@ -1,0 +1,21 @@
+INPUT:
+
+exam_data = data.frame(
+name = c('Anastasia', 'Dima', 'Katherine', 'James', 'Emily', 'Michael', 'Matthew', 'Laura', 'Kevin', 'Jonas'),
+score = c(12.5, 9, 16.5, 12, 9, 20, 14.5, 13.5, 8, 19),
+attempts = c(1, 3, 2, 3, 2, 3, 1, 1, 2, 1),
+qualify = c('yes', 'no', 'yes', 'no', 'no', 'yes', 'yes', 'no', 'no', 'yes')
+)
+print("Structure of the said data frame:")
+print(str(exam_data))
+
+OUTPUT:
+
+[1] "Structure of the said data frame:"
+'data.frame':	10 obs. of  4 variables:
+ $ name    : Factor w/ 10 levels "Anastasia","Dima",..: 1 2 6 4 3 10 9 8 7 5
+ $ score   : num  12.5 9 16.5 12 9 20 14.5 13.5 8 19
+ $ attempts: num  1 3 2 3 2 3 1 1 2 1
+ $ qualify : Factor w/ 2 levels "no","yes": 2 1 2 1 1 2 2 1 1 2
+NULL   
+
