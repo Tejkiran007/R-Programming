@@ -1,0 +1,8 @@
+INPUT:
+
+b="uday"
+b
+
+OUTPUT:
+
+[1] "uday"
