@@ -1,0 +1,14 @@
+INPUT:
+
+x <- 5 + 3i
+is.numeric(x)
+is.integer(x)
+is.double(x)
+is.complex(x)
+
+OUTPUT:
+
+[1] FALSE
+[1] FALSE
+[1] FALSE
+[1] TRUE
