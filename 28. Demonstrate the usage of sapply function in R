@@ -1,0 +1,14 @@
+INPUT:
+
+dt <- cars
+lmn_cars <- lapply(dt, min)
+smn_cars <- sapply(dt, min)
+lmn_cars
+
+OUTPUT:
+
+## $speed
+## [1] 4
+## $dist
+## [1] 2
+
