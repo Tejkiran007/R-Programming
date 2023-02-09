@@ -1,0 +1,7 @@
+INPUT:
+
+> rep(c(2,4,6), times=2)
+
+OUTPUT:
+
+[1] 2 4 6 2 4 6
