@@ -1,0 +1,15 @@
+INPUT:
+
+s <- list(name = "John", age = 21, GPA = 3.5)
+class(s) <- "student"
+
+OUTPUT:
+
+$name
+[1] "John"
+$age
+[1] 21
+$GPA
+[1] 3.5
+attr(,"class")
+[1] "student"
