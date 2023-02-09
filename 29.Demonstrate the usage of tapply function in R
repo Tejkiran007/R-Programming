@@ -1,0 +1,9 @@
+INPUT:
+
+data(iris)
+tapply(iris$Sepal.Width, iris$Species, median)
+
+OUTPUT:
+
+##     setosa versicolor  virginica 
+##        3.4        2.8        3.0
