@@ -1,0 +1,24 @@
+INPUT:
+
+data <- c(1, 2, 7, 2, 8, 4, 3, 0, 9)
+A <- matrix(data, nrow = 3, ncol = 3)
+
+A_T <- t(A)
+
+print("Matrix A")
+print(A)
+print("Transpose of A")
+print(A_T)
+
+OUTPUT:
+
+[1] "Matrix A"
+     [,1] [,2] [,3]
+[1,]    1    2    3
+[2,]    2    8    0
+[3,]    7    4    9
+[1] "Transpose of A"
+     [,1] [,2] [,3]
+[1,]    1    2    7
+[2,]    2    8    4
+[3,]    3    0    9
